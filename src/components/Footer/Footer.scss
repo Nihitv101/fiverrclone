@@ -1,0 +1,42 @@
+.footer{
+    width: 100%;
+    padding: 30px 20px;
+    .container{
+        max-width: 1140px;
+        margin: auto;
+
+        .top{
+            display: flex;
+            gap: 2rem;
+            margin-block:3rem;
+
+            .item{
+                h2{
+                    font-size: 1.2rem;
+                }
+                
+                color: #404145;
+                font-size:0.8rem;
+            
+                flex: 1;
+                display: flex;
+                flex-direction: column;
+                gap: 0.56rem;
+            }
+        }
+
+        .bottom{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px;
+
+            .right{
+                .social{
+                    display: flex;
+                    gap: 1.4rem;
+                }
+            }
+        }
+    }
+}

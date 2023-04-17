@@ -1,0 +1,105 @@
+.features{
+    width: 100%;
+    background-color: #f1fdf7;
+    min-height: 80vh;
+    display: flex;
+    padding: 0 10px;
+    margin: 25px 0;
+
+    align-items: center;
+    .container{
+
+        max-width: 1140px;
+        margin: auto;
+        display: flex;
+        align-items: center;
+        gap: 4rem;
+
+        img{
+            width: 35vw;
+            height: 400px;
+            object-fit: cover;
+        }
+        
+        .item{
+
+            display: flex;
+            flex-direction: column;
+
+            padding: 15px 0;
+            
+            .item-content{
+                padding: 10px;
+                p{
+                    margin-block:10px;
+                    i{
+                        color: grey;
+                        margin-right: 10px;
+                    }
+                }   
+            }
+
+        }
+    }
+}
+
+
+.features-2{
+    width: 100%;
+    background-color: #0d084d;
+    min-height: 80vh;
+    display: flex;
+    padding: 0 10px;
+    margin: 25px 0;
+    align-items: center;
+
+    .container{
+
+        max-width: 1140px;
+        margin: auto;
+        display: flex;
+        align-items: center;
+        gap: 4rem;
+        color: #ffffff;
+
+        img{
+            width: 35vw;
+            height: 400px;
+            object-fit: cover;
+        }
+        
+        .item{
+
+            display: flex;
+            flex-direction: column;
+
+            padding: 15px 0;
+            
+            .item-content{
+                padding: 10px;
+                p{
+                    margin-block:10px;
+                    i{
+                        color: grey;
+                        margin-right: 10px;
+                    }
+                }   
+            }
+
+            .btn{
+                width: 50%;
+                background-color: #1dbf73;
+                color: white;
+                padding: 8px 15px;
+                border: none;
+                cursor: pointer;
+
+                &:hover{
+                    background-color: #19a463;
+                }
+            }
+
+        }
+    }
+
+}

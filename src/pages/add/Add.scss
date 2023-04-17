@@ -1,0 +1,54 @@
+.add{
+    width: 100%;
+
+    .container{
+        padding: 20px;
+        max-width: 1140px;
+        margin: auto;
+
+        h1{
+            margin: 2rem 0;
+            font-weight: 300;
+            color: gray;
+        }
+
+        .sections{
+            display: flex;
+            justify-content: space-between;
+            gap: 100px;
+            
+
+            .left, .right{
+                display: flex;
+                flex: 1;
+                flex-direction: column;
+                gap: 10px;
+                justify-content: space-between;
+
+
+                label{
+                    color: gray;
+                    font-size: 18px;
+                }
+
+                input, select, textarea{
+                    padding: 20px;
+                    outline: none;
+                }
+
+                button{
+                    border: none;
+                    padding: 20px;
+                    background-color: #1dbf73;
+                    cursor: pointer;
+                    color: white;
+                    border-radius: 6px;
+                }
+            }
+
+             
+        }
+
+
+    }
+}
